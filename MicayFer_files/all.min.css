@@ -6068,3 +6068,9 @@
 .fas {
     font-weight: 900
 }
+
+@font-face {
+    font-family: "DK Lemon Yellow Sun";
+    src: url("//db.onlinewebfonts.com/t/fe3894fd3780a37b921eebcc272f6e3e.eot");
+    src: url("//db.onlinewebfonts.com/t/fe3894fd3780a37b921eebcc272f6e3e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/fe3894fd3780a37b921eebcc272f6e3e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/fe3894fd3780a37b921eebcc272f6e3e.woff") format("woff"), url("//db.onlinewebfonts.com/t/fe3894fd3780a37b921eebcc272f6e3e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/fe3894fd3780a37b921eebcc272f6e3e.svg#DK Lemon Yellow Sun") format("svg");
+}
