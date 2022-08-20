@@ -6011,6 +6011,18 @@
 }
 
 @font-face {
+    font-family: 'GreatVibes';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url(/MicayFer_files/Assets/great-vibes/GreatVibes-Regular.ttf);
+    format('opentype'),
+    url(/MicayFer_files/Assets/great-vibes/GreatVibes-Regular.ttf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "Font Awesome 5 Brands";
     font-style: normal;
     font-weight: 400;
