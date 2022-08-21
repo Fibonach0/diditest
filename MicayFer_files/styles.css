@@ -460,43 +460,12 @@ section.dresscode img.icon {
 /* ---------- */
 
 
-/* INSTAGRAM */
-
-section.instagram {
-    text-align: center;
-    height: 70px;
-    /*550*/
-}
-
-section.instagram .contenido {
-    padding: 50px 10px;
-}
-
-section.instagram span.hashtag {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    margin-top: 100px;
-}
-
-section.instagram .contenido img.icon {
-    width: 150px;
-}
-
-section.instagram p {
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-
-/* ---------- */
-
-
 /* CANCIONES */
 
 section.canciones {
     text-align: center;
-    padding: 70px 0 70px;
+    padding: 40px 0 70px;
+    /*El padding tiene 30 menos por el boton*/
 }
 
 section.canciones h4 {
@@ -520,7 +489,8 @@ section.canciones img.icon {
 
 section.combi {
     text-align: center;
-    padding: 70px 0 70px;
+    padding: 40px 0 40px;
+    /*El padding tiene 30 menos por el boton*/
 }
 
 section.combi h4 {
@@ -544,7 +514,8 @@ section.combi img.icon {
 
 section.comida {
     text-align: center;
-    padding: 70px 0 70px;
+    padding: 40px 0 40px;
+    /*El padding tiene 30 menos por el boton*/
 }
 
 section.comida h4 {
@@ -568,7 +539,8 @@ section.comida img.icon {
 
 section.insta {
     text-align: center;
-    padding: 70px 0 70px;
+    padding: 40px 0 85px;
+    /*El padding tiene 30 menos por el boton*/
 }
 
 section.insta h4 {
