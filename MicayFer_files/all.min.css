@@ -6011,18 +6011,6 @@
 }
 
 @font-face {
-    font-family: 'GreatVibes';
-    font-style: normal;
-    font-weight: 900;
-    font-display: block;
-    src: url(/MicayFer_files/Assets/great-vibes/GreatVibes-Regular.ttf);
-    format('opentype'),
-    url(/MicayFer_files/Assets/great-vibes/GreatVibes-Regular.ttf) format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: "Font Awesome 5 Brands";
     font-style: normal;
     font-weight: 400;
@@ -6073,4 +6061,16 @@
     font-family: "DK Lemon Yellow Sun";
     src: url("//db.onlinewebfonts.com/t/fe3894fd3780a37b921eebcc272f6e3e.eot");
     src: url("//db.onlinewebfonts.com/t/fe3894fd3780a37b921eebcc272f6e3e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/fe3894fd3780a37b921eebcc272f6e3e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/fe3894fd3780a37b921eebcc272f6e3e.woff") format("woff"), url("//db.onlinewebfonts.com/t/fe3894fd3780a37b921eebcc272f6e3e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/fe3894fd3780a37b921eebcc272f6e3e.svg#DK Lemon Yellow Sun") format("svg");
+}
+
+@font-face {
+    font-family: "Microsoft Yi Baiti";
+    src: url("//db.onlinewebfonts.com/t/5d22bd0816f911a4c90e5d8661157ef9.eot");
+    src: url("//db.onlinewebfonts.com/t/5d22bd0816f911a4c90e5d8661157ef9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5d22bd0816f911a4c90e5d8661157ef9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5d22bd0816f911a4c90e5d8661157ef9.woff") format("woff"), url("//db.onlinewebfonts.com/t/5d22bd0816f911a4c90e5d8661157ef9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5d22bd0816f911a4c90e5d8661157ef9.svg#Microsoft Yi Baiti") format("svg");
+}
+
+@font-face {
+    font-family: "Great Vibes";
+    src: url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.eot");
+    src: url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.woff") format("woff"), url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.svg#Great Vibes") format("svg");
 }

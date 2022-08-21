@@ -754,3 +754,68 @@ section.contacto ul li i {
         margin-top: 10px;
     }
 }
+
+@media (max-width: 450px) {
+    body {
+        font-family: "Microsoft Yi Baiti", 'Montserrat', sans-serif;
+        color: var(--color-gris);
+        font-size: 18px;
+        background-color: var(--color-fondo);
+    }
+    p {
+        font-family: "Microsoft Yi Baiti", 'Montserrat', sans-serif;
+        color: var(--color-gris);
+        font-weight: 100;
+        font-size: 18px;
+    }
+    h4 {
+        font-family: 'Montserrat', sans-serif;
+        color: var(--color-gris);
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .btn {
+        font-family: 'Montserrat', sans-serif;
+        color: var(--color-gris);
+        background-color: var(--color-secundario);
+        border-radius: 30px;
+        padding: 10px 40px;
+        border: 1px solid var(--color-primario);
+        text-transform: uppercase;
+    }
+    .btn:hover {
+        color: var(--color-gris);
+        background-color: var(--color-primario);
+        border: 1px solid var(--color-gris);
+    }
+    .btn-alt {
+        font-family: 'Montserrat', sans-serif;
+        color: var(--color-gris);
+        background-color: var(--color-secundario);
+    }
+    .btn-alt:hover {
+        color: var(--color-gris);
+        background-color: var(--color-primario);
+        border: 1px solid var(--color-gris);
+        ;
+    }
+    .btn:focus {
+        box-shadow: none;
+    }
+    /*Confirmar asistencia*/
+    .btn-ca {
+        font-family: 'Montserrat', sans-serif;
+        color: var(--color-gris);
+        background-color: var(--color-fondo);
+        border-radius: 30px;
+        padding: 10px 40px;
+        border: 1px solid var(--color-gris);
+        text-transform: uppercase;
+    }
+    .btn-ca:hover {
+        color: var(--color-gris);
+        background-color: white;
+    }
+}
