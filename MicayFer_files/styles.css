@@ -254,7 +254,7 @@ section.cuenta-regresiva {
     text-align: center;
     padding-top: 25px;
     background-color: var(--color-secundario);
-    height: 100px;
+    height: 130px;
 }
 
 section.cuenta-regresiva p {
@@ -823,5 +823,11 @@ section.contacto ul li i {
         text-align: center;
         font-size: 30px;
         margin-top: -32px;
+    }
+    section.cuenta-regresiva {
+        text-align: center;
+        padding-top: 25px;
+        background-color: var(--color-secundario);
+        height: 100px;
     }
 }
