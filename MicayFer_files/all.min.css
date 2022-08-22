@@ -6074,3 +6074,10 @@
     src: url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.eot");
     src: url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.woff") format("woff"), url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.svg#Great Vibes") format("svg");
 }
+
+@import url('http://fonts.cdnfonts.com/css/gogoia');
+@font-face {
+    font-family: "gogoia-regular";
+    src: url("/MicayFer_files/Assets/Css/Gogoia/Gogoia/TTF/GOGOIA-Regular.ttf");
+    src: url("/MicayFer_files/Assets/Css/Gogoia/Gogoia/OTF/GOGOIA-Regular.otf") format("embedded-opentype"), url("/MicayFer_files/Assets/Css/Gogoia/Gogoia/TTF/GOGOIA-Regular.ttf") format("truetype");
+}
