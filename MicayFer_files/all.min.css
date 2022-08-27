@@ -6081,5 +6081,5 @@
 @font-face {
     font-family: "gogoia-regular";
     src: url("/MicayFer_files/Assets/Css/Gogoia/Gogoia/TTF/GOGOIA-Regular.ttf");
-    src: url("/MicayFer_files/Assets/Css/Gogoia/Gogoia/OTF/GOGOIA-Regular.otf") format("embedded-opentype"), url("/MicayFer_files/Assets/Css/Gogoia/Gogoia/TTF/GOGOIA-Regular.ttf") format("truetype");
+    src: url('/MicayFer_files/Assets/Css/Gogoia/Gogoia/OTF/GOGOIA-Regular.otf') format('opentype'), url('/MicayFer_files/Assets/Css/Gogoia/Gogoia/TTF/GOGOIA-Regular.ttf') format('truetype');
 }
