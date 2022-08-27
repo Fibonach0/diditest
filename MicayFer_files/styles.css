@@ -259,6 +259,7 @@ section.cuenta-regresiva {
 }
 
 section.cuenta-regresiva p {
+    font-family: 'gogoia-regular', 'Montserrat', sans-serif;
     color: white;
     text-align: center;
     font-size: 48px;
