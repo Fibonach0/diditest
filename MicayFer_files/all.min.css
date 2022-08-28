@@ -6079,7 +6079,8 @@
 /* @import url('http://fonts.cdnfonts.com/css/gogoia'); */
 
 @font-face {
-    font-family: "gogoia-regular";
-    src: url("/MicayFer_files/Assets/Css/Gogoia/Gogoia/TTF/GOGOIA-Regular.ttf");
-    src: url('/MicayFer_files/Assets/Css/Gogoia/Gogoia/OTF/GOGOIA-Regular.otf') format('opentype'), url('/MicayFer_files/Assets/Css/Gogoia/Gogoia/TTF/GOGOIA-Regular.ttf') format('truetype');
+    font-family: 'gogoia-regular';
+    src: url('MicayFer_files/Assets/Css/Gogoia/Gogoia/OTF/GOGOIA-Regular.otf') format('opentype'), url('/MicayFer_files/Assets/Css/Gogoia/Gogoia/OTF/GOGOIA-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
