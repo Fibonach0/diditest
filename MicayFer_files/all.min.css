@@ -6075,12 +6075,16 @@
     src: url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.woff") format("woff"), url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5bf06596a053153248631d74f9fc4e28.svg#Great Vibes") format("svg");
 }
 
-
-/* @import url('http://fonts.cdnfonts.com/css/gogoia'); */
-
 @font-face {
     font-family: 'gogoia-regular';
     src: url('/MicayFer_files/Assets/Css/GOGOIA-Regular.otf') format('opentype'), url('/MicayFer_files/Assets/Css/GOGOIA-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
+}
+
+@import url(//db.onlinewebfonts.com/c/d9042df8323ef3ba3175dff192e18933?family=Gotcha+Gothic+Light);
+@font-face {
+    font-family: "Gotcha Gothic Light";
+    src: url("//db.onlinewebfonts.com/t/d9042df8323ef3ba3175dff192e18933.eot");
+    src: url("//db.onlinewebfonts.com/t/d9042df8323ef3ba3175dff192e18933.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d9042df8323ef3ba3175dff192e18933.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d9042df8323ef3ba3175dff192e18933.woff") format("woff"), url("//db.onlinewebfonts.com/t/d9042df8323ef3ba3175dff192e18933.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d9042df8323ef3ba3175dff192e18933.svg#Gotcha Gothic Light") format("svg");
 }

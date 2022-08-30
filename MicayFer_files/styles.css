@@ -39,7 +39,7 @@ h4 {
 }
 
 .btn {
-    font-family: 'gogoia-regular', 'Montserrat', sans-serif;
+    font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
     font-size: 30px;
     color: var(--color-gris);
     background-color: var(--color-secundario);
@@ -56,7 +56,7 @@ h4 {
 }
 
 .btn-alt {
-    font-family: 'gogoia-regular', 'Montserrat', sans-serif;
+    font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
     color: var(--color-gris);
     background-color: var(--color-secundario);
 }
@@ -76,7 +76,7 @@ h4 {
 /*Confirmar asistencia*/
 
 .btn-ca {
-    font-family: 'gogoia-regular', 'Montserrat', sans-serif;
+    font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
     color: var(--color-gris);
     background-color: var(--color-fondo);
     border-radius: 30px;
@@ -259,7 +259,7 @@ section.cuenta-regresiva {
 }
 
 section.cuenta-regresiva p {
-    font-family: 'gogoia-regular', 'Montserrat', sans-serif;
+    font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
     color: white;
     text-align: center;
     font-size: 48px;
@@ -318,6 +318,7 @@ section.fiestasola {
 section.fiestasola h4 {
     text-align: center;
     margin-bottom: 25px;
+    color: var(--color-primario);
 }
 
 section.fiestasola p {
@@ -445,7 +446,7 @@ section.dresscode {
 }
 
 section.dresscode h4 {
-    font-family: 'gogoia-regular', 'Montserrat', sans-serif;
+    font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
@@ -754,14 +755,14 @@ section.contacto ul li i {
         color: var(--color-gris);
         letter-spacing: 2px;
         text-transform: uppercase;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 400;
     }
     .btn {
-        font-family: 'gogoia-regular', 'Montserrat', sans-serif;
+        font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
         color: var(--color-gris);
         background-color: var(--color-secundario);
-        border-radius: 30px;
+        border-radius: 15px;
         padding: 10px 40px;
         border: 1px solid var(--color-primario);
         text-transform: uppercase;
@@ -772,7 +773,7 @@ section.contacto ul li i {
         border: 1px solid var(--color-gris);
     }
     .btn-alt {
-        font-family: 'gogoia-regular', 'Montserrat', sans-serif;
+        font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
         color: var(--color-gris);
         background-color: var(--color-secundario);
     }
@@ -787,10 +788,10 @@ section.contacto ul li i {
     }
     /*Confirmar asistencia*/
     .btn-ca {
-        font-family: 'gogoia-regular', 'Montserrat', sans-serif;
+        font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
         color: var(--color-gris);
         background-color: var(--color-fondo);
-        border-radius: 30px;
+        border-radius: 18px;
         padding: 10px 40px;
         border: 1px solid var(--color-gris);
         text-transform: uppercase;
@@ -799,20 +800,22 @@ section.contacto ul li i {
         color: var(--color-gris);
         background-color: white;
     }
+    /*Cuenta Regresiva*/
     section.cuenta-regresiva p {
-        font-family: 'gogoia-regular', 'Montserrat', sans-serif;
+        font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
         color: white;
         text-align: center;
         font-size: 30px;
-        margin-top: -32px;
+        margin-top: -19px;
     }
     section.cuenta-regresiva {
         text-align: center;
-        font-family: 'gogoia-regular', 'Montserrat', sans-serif;
+        font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
         padding-top: 25px;
         background-color: var(--color-secundario);
         height: 100px;
     }
+    /* DressCode*/
     section.dresscode p {
         color: var(--color-gris);
         font-size: 18px;
