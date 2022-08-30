@@ -1,12 +1,12 @@
 // Instagram parallax
 $('.parallax-instagram').parallax({
-    imageSrc: 'assets/img/instagram.jpg'
+    imageSrc: './MicayFer_files/Assets/portada2.jpg'
 
 });
 
 // Portada parallax
 $('.parallax-portada').parallax({
-    imageSrc: 'MicayFer_files/Assets/portada2.jpg '
+    imageSrc: './MicayFer_files/Assets/portada2.jpg '
 });
 
 // ----------------------

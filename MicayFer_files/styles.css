@@ -778,6 +778,7 @@ section.contacto ul li i {
     .btn2 {
         padding: 10px 78px;
     }
+    /**/
     .btn:hover {
         color: var(--color-gris);
         background-color: var(--color-primario);
