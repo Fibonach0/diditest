@@ -102,11 +102,11 @@ var ringer = {
         // label
         $r.ctx.fillStyle = "#ffffff";
 
-        $r.ctx.font = '12px Helvetica';
+        $r.ctx.font = '12px gogoia-regular';
         $r.ctx.fillText(label, 0, 23);
         $r.ctx.fillText(label, 0, 23);
 
-        $r.ctx.font = 'bold 40px Helvetica';
+        $r.ctx.font = 'bold 40px gogoia-regular';
         $r.ctx.fillText(Math.floor(value), 0, 10);
 
         $r.ctx.restore();

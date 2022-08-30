@@ -6,7 +6,7 @@ $('.parallax-instagram').parallax({
 
 // Portada parallax
 $('.parallax-portada').parallax({
-    imageSrc: 'assets/img/portada.jpg'
+    imageSrc: './MicayFer_files/Assets/portada2.jpg '
 });
 
 // ----------------------

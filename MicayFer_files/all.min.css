@@ -6080,7 +6080,7 @@
 
 @font-face {
     font-family: 'gogoia-regular';
-    src: url('MicayFer_files/Assets/Css/Gogoia/Gogoia/OTF/GOGOIA-Regular.otf') format('opentype'), url('/MicayFer_files/Assets/Css/Gogoia/Gogoia/OTF/GOGOIA-Regular.otf') format('opentype');
+    src: url('/MicayFer_files/Assets/Css/GOGOIA-Regular.otf') format('opentype'), url('/MicayFer_files/Assets/Css/GOGOIA-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
