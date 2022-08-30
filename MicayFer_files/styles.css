@@ -40,13 +40,20 @@ h4 {
 
 .btn {
     font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: var(--color-gris);
     background-color: var(--color-secundario);
     border-radius: 30px;
     padding: 10px 40px;
     border: 1px solid var(--color-primario);
     text-transform: uppercase;
+}
+
+
+/*Boton agendar*/
+
+.btn2 {
+    padding: 10px 78px;
 }
 
 .btn:hover {
