@@ -87,7 +87,7 @@ h4 {
     color: var(--color-gris);
     background-color: var(--color-fondo);
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 10px 40px;
     /* border: 1px solid var(--color-gris); */
     text-transform: uppercase;
 }
@@ -429,6 +429,8 @@ section.confirmar-asistencia {
 
 section.confirmar-asistencia h4 {
     text-align: center;
+    font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
+    color: white;
     margin-bottom: 25px;
 }
 
@@ -457,7 +459,7 @@ section.dresscode h4 {
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    color: var(--color-gris);
+    color: white;
 }
 
 section.dresscode p {
@@ -483,6 +485,8 @@ section.canciones {
 
 section.canciones h4 {
     text-align: center;
+    font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
+    color: var(--color-primario);
     margin-bottom: 25px;
 }
 
@@ -752,7 +756,7 @@ section.contacto ul li i {
         font-family: "Microsoft Yi Baiti", 'Montserrat', sans-serif;
         color: var(--color-gris);
         font-weight: 100;
-        font-size: 18px;
+        font-size: 21px;
     }
     h4 {
         font-family: 'Montserrat', sans-serif;
@@ -829,7 +833,7 @@ section.contacto ul li i {
     /* DressCode*/
     section.dresscode p {
         color: var(--color-gris);
-        font-size: 18px;
+        font-size: 21px;
     }
 }
 
@@ -844,7 +848,7 @@ section.contacto ul li i {
         font-family: "Microsoft Yi Baiti", 'Montserrat', sans-serif;
         color: var(--color-gris);
         font-weight: 100;
-        font-size: 18px;
+        font-size: 20px;
     }
     h4 {
         font-family: 'Montserrat', sans-serif;
