@@ -84,8 +84,8 @@ h4 {
 
 .btn-ca {
     font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
-    color: var(--color-gris);
-    background-color: var(--color-fondo);
+    color: var(--color-secundario);
+    background-color: white;
     border-radius: 30px;
     padding: 10px 40px;
     /* border: 1px solid var(--color-gris); */
@@ -804,8 +804,8 @@ section.contacto ul li i {
     /*Confirmar asistencia*/
     .btn-ca {
         font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
-        color: var(--color-gris);
-        background-color: var(--color-fondo);
+        color: var(--color-secundario);
+        background-color: white;
         border-radius: 30px;
         padding: 10px 40px;
         /* border: 1px solid var(--color-gris); */
@@ -896,8 +896,8 @@ section.contacto ul li i {
     /*Confirmar asistencia*/
     .btn-ca {
         font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
-        color: var(--color-gris);
-        background-color: var(--color-fondo);
+        color: var(--color-secundario);
+        background-color: white;
         border-radius: 30px;
         padding: 10px 40px;
         /* border: 1px solid var(--color-gris); */
