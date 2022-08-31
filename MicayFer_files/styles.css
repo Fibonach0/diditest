@@ -41,7 +41,7 @@ h4 {
 .btn {
     font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
     font-size: 20px;
-    color: var(--color-gris);
+    color: white;
     background-color: var(--color-secundario);
     border-radius: 30px;
     padding: 10px 40px;
@@ -64,7 +64,7 @@ h4 {
 
 .btn-alt {
     font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
-    color: var(--color-gris);
+    color: white;
     background-color: var(--color-secundario);
 }
 
@@ -87,8 +87,8 @@ h4 {
     color: var(--color-gris);
     background-color: var(--color-fondo);
     border-radius: 30px;
-    padding: 10px 40px;
-    border: 1px solid var(--color-gris);
+    padding: 10px 20px;
+    /* border: 1px solid var(--color-gris); */
     text-transform: uppercase;
 }
 
@@ -270,7 +270,7 @@ section.cuenta-regresiva p {
     color: white;
     text-align: center;
     font-size: 48px;
-    margin-top: -32px;
+    margin-top: -20px;
 }
 
 #reloj {
@@ -390,7 +390,7 @@ section.cbu p {
 
 #hidden-cbu {
     padding: 25px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 #hidden-cbu span.title {
@@ -742,6 +742,95 @@ section.contacto ul li i {
     section.menu-footer ul li {
         margin-top: 10px;
     }
+    body {
+        font-family: "Microsoft Yi Baiti", 'Montserrat', sans-serif;
+        color: var(--color-gris);
+        font-size: 18px;
+        background-color: var(--color-fondo);
+    }
+    p {
+        font-family: "Microsoft Yi Baiti", 'Montserrat', sans-serif;
+        color: var(--color-gris);
+        font-weight: 100;
+        font-size: 18px;
+    }
+    h4 {
+        font-family: 'Montserrat', sans-serif;
+        color: var(--color-gris);
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .btn {
+        font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
+        color: white;
+        background-color: var(--color-secundario);
+        border-radius: 30px;
+        padding: 10px 40px;
+        border: 1px solid var(--color-primario);
+        text-transform: uppercase;
+    }
+    /*Boton agendar*/
+    .btn2 {
+        padding: 10px 78px;
+    }
+    /**/
+    .btn:hover {
+        color: white;
+        background-color: var(--color-primario);
+        border: 1px solid var(--color-gris);
+    }
+    .btn-alt {
+        font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
+        color: white;
+        background-color: var(--color-secundario);
+        border-radius: 30px;
+        padding: 10px 40px;
+    }
+    .btn-alt:hover {
+        color: white;
+        background-color: var(--color-primario);
+        border: 1px solid var(--color-gris);
+        ;
+    }
+    .btn:focus {
+        box-shadow: none;
+    }
+    /*Confirmar asistencia*/
+    .btn-ca {
+        font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
+        color: var(--color-gris);
+        background-color: var(--color-fondo);
+        border-radius: 30px;
+        padding: 10px 40px;
+        /* border: 1px solid var(--color-gris); */
+        text-transform: uppercase;
+    }
+    .btn-ca:hover {
+        color: var(--color-gris);
+        background-color: white;
+    }
+    /*Cuenta Regresiva*/
+    section.cuenta-regresiva p {
+        font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin-top: -19px;
+    }
+    section.cuenta-regresiva {
+        text-align: center;
+        font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
+        padding-top: 25px;
+        background-color: var(--color-secundario);
+        height: 100px;
+    }
+    /* DressCode*/
+    section.dresscode p {
+        color: var(--color-gris);
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -767,9 +856,9 @@ section.contacto ul li i {
     }
     .btn {
         font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
-        color: var(--color-gris);
+        color: white;
         background-color: var(--color-secundario);
-        border-radius: 15px;
+        border-radius: 30px;
         padding: 10px 40px;
         border: 1px solid var(--color-primario);
         text-transform: uppercase;
@@ -780,17 +869,19 @@ section.contacto ul li i {
     }
     /**/
     .btn:hover {
-        color: var(--color-gris);
+        color: white;
         background-color: var(--color-primario);
         border: 1px solid var(--color-gris);
     }
     .btn-alt {
         font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
-        color: var(--color-gris);
+        color: white;
         background-color: var(--color-secundario);
+        border-radius: 30px;
+        padding: 10px 40px;
     }
     .btn-alt:hover {
-        color: var(--color-gris);
+        color: white;
         background-color: var(--color-primario);
         border: 1px solid var(--color-gris);
         ;
@@ -803,9 +894,9 @@ section.contacto ul li i {
         font-family: 'Gotcha Gothic Light', 'Montserrat', sans-serif;
         color: var(--color-gris);
         background-color: var(--color-fondo);
-        border-radius: 18px;
+        border-radius: 30px;
         padding: 10px 40px;
-        border: 1px solid var(--color-gris);
+        /* border: 1px solid var(--color-gris); */
         text-transform: uppercase;
     }
     .btn-ca:hover {
