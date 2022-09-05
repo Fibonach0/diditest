@@ -5,9 +5,9 @@ $('.parallax-instagram').parallax({
 });
 
 // Portada parallax
-// $('.parallax-portada').parallax({
-//     imageSrc: './MicayFer_files/Assets/portada3.jpg'
-// });
+$('.parallax-portada').parallax({
+    imageSrc: './MicayFer_files/Assets/portada3.jpg'
+});
 
 // ----------------------
 
