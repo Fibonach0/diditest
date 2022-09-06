@@ -945,10 +945,26 @@ section.contacto ul li i {
         background-size: cover;
         zoom: 1;
     }
+    section.parallax {
+        height: 100vh;
+        background-image: url("../public/img/IMGPARAANDROID.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        zoom: 1;
+    }
 }
 
 @media (min-width: 800) {
     section.portada2 {
+        height: 100vh;
+        background-image: url("../public/img/IMGPARAIPHONE.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        zoom: 1;
+    }
+    section.parallax {
         height: 100vh;
         background-image: url("../public/img/IMGPARAIPHONE.png");
         background-repeat: no-repeat;
@@ -963,8 +979,9 @@ section.contacto ul li i {
 
 .parallax {
     /* The image used */
-    background-image: url("../public/img/IMGPARAIPHONE.png");
+    background-image: url("../public/img/IMGPARAPC.png");
     /* Set a specific height */
+    height: 100vh;
     min-height: 500px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
