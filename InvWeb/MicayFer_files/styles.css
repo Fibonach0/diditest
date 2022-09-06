@@ -252,6 +252,7 @@ section.portada {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    zoom: 1;
 }
 
 
@@ -942,6 +943,7 @@ section.contacto ul li i {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        zoom: 1;
     }
 }
 
@@ -952,6 +954,7 @@ section.contacto ul li i {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        zoom: 1;
     }
 }
 
