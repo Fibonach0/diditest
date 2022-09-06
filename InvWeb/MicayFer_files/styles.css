@@ -246,7 +246,7 @@ a:hover {
 
 /* Portada */
 
-section.portada {
+section.portada2 {
     height: 100vh;
     background-image: url("../public/img/IMGPARAPC.png");
     background-repeat: no-repeat;
@@ -937,7 +937,7 @@ section.contacto ul li i {
 }
 
 @media (max-width: 800) {
-    section.portada {
+    section.portada2 {
         height: 100vh;
         background-image: url("../public/img/IMGPARAANDROID.png");
         background-repeat: no-repeat;
@@ -948,7 +948,7 @@ section.contacto ul li i {
 }
 
 @media (min-width: 800) {
-    section.portada {
+    section.portada2 {
         height: 100vh;
         background-image: url("../public/img/IMGPARAIPHONE.png");
         background-repeat: no-repeat;
