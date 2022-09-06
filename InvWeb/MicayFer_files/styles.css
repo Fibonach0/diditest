@@ -248,7 +248,7 @@ a:hover {
 
 section.portada {
     height: 100vh;
-    background-image: url("/InvWeb/MicayFer_files/Assets/IMGPARAPC.png");
+    background-image: url("/InvWeb/public/img/IMGPARAPC.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -938,7 +938,7 @@ section.contacto ul li i {
 @media (max-width: 800) {
     section.portada {
         height: 100vh;
-        background-image: url("/InvWeb/MicayFer_files/Assets/IMGPARAANDROID.png");
+        background-image: url("/InvWeb/public/img/IMGPARAANDROID.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -948,7 +948,7 @@ section.contacto ul li i {
 @media (min-width: 800) {
     section.portada {
         height: 100vh;
-        background-image: url("/InvWeb/MicayFer_files/Assets/IMGPARAIPHONE.png");
+        background-image: url("/InvWeb/public/img/IMGPARAIPHONE.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
