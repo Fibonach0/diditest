@@ -248,7 +248,7 @@ a:hover {
 
 section.portada {
     height: 100vh;
-    background-image: url("/MicayFer_files/Assets/portada2.jpg");
+    background-image: url("/InvWeb/MicayFer_files/Assets/IMGPARAPC.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -932,6 +932,26 @@ section.contacto ul li i {
     section.dresscode p {
         color: var(--color-gris);
         font-size: 18px;
+    }
+}
+
+@media (max-width: 800) {
+    section.portada {
+        height: 100vh;
+        background-image: url("/InvWeb/MicayFer_files/Assets/IMGPARAANDROID.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 800) {
+    section.portada {
+        height: 100vh;
+        background-image: url("/InvWeb/MicayFer_files/Assets/IMGPARAIPHONE.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
 }
 
