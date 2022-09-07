@@ -250,7 +250,7 @@ section.portada2 {
     height: 100vh;
     background-image: url("../public/img/IMGPARAPC.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     zoom: 1;
 }
@@ -941,17 +941,15 @@ section.contacto ul li i {
         height: 100vh;
         background-image: url("../public/img/IMGPARAANDROID.png");
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-size: cover;
-        zoom: 1;
     }
     section.parallax {
         height: 100vh;
         background-image: url("../public/img/IMGPARAANDROID.png");
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-size: cover;
-        zoom: 1;
     }
 }
 
@@ -960,17 +958,15 @@ section.contacto ul li i {
         height: 100vh;
         background-image: url("../public/img/IMGPARAIPHONE.png");
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-size: cover;
-        zoom: 1;
     }
     section.parallax {
         height: 100vh;
         background-image: url("../public/img/IMGPARAIPHONE.png");
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-size: cover;
-        zoom: 1;
     }
 }
 
@@ -984,7 +980,7 @@ section.contacto ul li i {
     height: 100vh;
     min-height: 500px;
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
