@@ -47,6 +47,7 @@ h4 {
     padding: 10px 40px;
     border: 1px solid var(--color-primario);
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 
@@ -92,6 +93,7 @@ h4 {
     padding: 10px 78px;
     /* border: 1px solid var(--color-gris); */
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .btn-ca:hover {
@@ -122,6 +124,38 @@ a:hover {
     -moz-animation: fadeIn ease 4s;
     -o-animation: fadeIn ease 4s;
     -ms-animation: fadeIn ease 4s;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px
+    }
 }
 
 @keyframes fadeIn {
@@ -248,11 +282,10 @@ a:hover {
 
 section.portada2 {
     height: 100vh;
-    background-image: url("../public/img/IMGPARAPC.png");
+    background-image: url("../public/img/IMGPARAIPHONE.png");
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    /* background-attachment: fixed; */
     background-size: cover;
-    zoom: 1;
 }
 
 
@@ -322,7 +355,7 @@ section.ceremonia-fiesta .columna img.anillos {
 
 section.fiestasola {
     text-align: center;
-    padding: 70px 0 70px;
+    padding: 40px 0 70px;
 }
 
 section.fiestasola h4 {
@@ -338,38 +371,6 @@ section.fiestasola p {
 section.fiestasola img.icon {
     width: 150px;
 }
-
-
-/* ---------- */
-
-
-/* Galeria /Historia */
-
-
-/* section.galeria {
-    padding-bottom: 50px;
-}
-
-section.galeria h4 {
-    text-align: center;
-    margin-bottom: 60px;
-}
-
-section.galeria .item-galeria {
-    padding: 0 3px;
-    margin-bottom: 5px;
-}
-
-section.galeria .item-galeria a img {
-    transition: all 0.3s ease-out;
-    border-radius: 10px;
-}
-
-section.galeria .item-galeria a:hover img {
-    transform: scale(1.1);
-    position: relative;
-    z-index: 999;
-} */
 
 
 /* ---------- */
@@ -426,7 +427,7 @@ section.cbu p {
 
 section.confirmar-asistencia {
     text-align: center;
-    padding: 100px 0 70px;
+    padding: 40px 0 70px;
     background-color: var(--color-secundario);
 }
 
@@ -453,7 +454,7 @@ section.confirmar-asistencia .btn-alt {
 
 section.dresscode {
     text-align: center;
-    padding: 70px 0 70px;
+    padding: 40px 0 50px;
     background-color: var(--color-secundario);
 }
 
@@ -559,7 +560,7 @@ section.comida img.icon {
 
 section.insta {
     text-align: center;
-    padding: 40px 0 85px;
+    padding: 40px 0 70px;
     /*El padding tiene 30 menos por el boton*/
 }
 
@@ -580,64 +581,11 @@ section.insta img.icon {
 /* ---------- */
 
 
-/* ALOJAMIENTOS */
-
-
-/* section.alojamientos {
-    text-align: center;
-    padding: 80px 0 80px;
-}
-
-section.alojamientos .contenido {
-    padding: 50px 10px;
-}
-
-section.alojamientos h4 {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-section.alojamientos p {
-    margin-top: 20px;
-    margin-bottom: 30px;
-} */
-
-
-/* ---------- */
-
-
-/* PROTOCOLO */
-
-
-/* section.protocolo {
-    text-align: center;
-    padding: 90px 0 90px;
-    background-color: var(--color-secundario);
-}
-
-section.protocolo h4 {
-    text-align: center;
-    margin-bottom: 25px;
-    color: var(--color-gris);
-}
-
-section.protocolo img.icon {
-    width: 150px;
-}
-
-section.protocolo p {
-    color: var(--color-gris);
-} */
-
-
-/* ---------- */
-
-
 /* GRACIAS */
 
 section.gracias {
     text-align: center;
-    padding: 50px 0;
+    padding: 40px 0;
     /* background-color: var(--color-secundario); */
 }
 
@@ -725,6 +673,28 @@ section.contacto ul li i {
     margin-right: 3px;
 }
 
+.logo-portada img {
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    appearance: scroll;
+    attachment: scroll;
+}
+
+.d-flex {
+    display: flex!important
+}
+
+.justify-content-center {
+    justify-content: center!important
+}
+
+.align-items-center {
+    align-items: center!important
+}
+
 
 /* ---------- */
 
@@ -736,6 +706,7 @@ section.contacto ul li i {
         max-width: 90%;
         margin-bottom: 0%;
         margin-top: 0%;
+        attachment: scroll;
     }
     .logo-portada {
         text-align: center;
@@ -777,6 +748,7 @@ section.contacto ul li i {
         padding: 10px 40px;
         border: 1px solid var(--color-primario);
         text-transform: uppercase;
+        text-decoration: none;
     }
     /*Boton agendar*/
     .btn2 {
@@ -815,6 +787,7 @@ section.contacto ul li i {
         padding: 13px 78px;
         /* border: 1px solid var(--color-gris); */
         text-transform: uppercase;
+        text-decoration: none;
     }
     .btn-ca:hover {
         color: var(--color-gris);
@@ -875,6 +848,7 @@ section.contacto ul li i {
     /*Boton agendar*/
     .btn2 {
         padding: 10px 78px;
+        text-decoration: none;
     }
     /**/
     .btn:hover {
@@ -888,6 +862,7 @@ section.contacto ul li i {
         background-color: var(--color-secundario);
         border-radius: 30px;
         padding: 10px 40px;
+        text-decoration: none;
     }
     .btn-alt:hover {
         color: white;
@@ -941,14 +916,7 @@ section.contacto ul li i {
         height: 100vh;
         background-image: url("../public/img/IMGPARAANDROID.png");
         background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-    }
-    section.parallax {
-        height: 100vh;
-        background-image: url("../public/img/IMGPARAANDROID.png");
-        background-repeat: no-repeat;
-        background-attachment: scroll;
+        background-attachment: fixed;
         background-size: cover;
     }
 }
@@ -956,38 +924,9 @@ section.contacto ul li i {
 @media (min-width: 800) {
     section.portada2 {
         height: 100vh;
-        background-image: url("../public/img/IMGPARAIPHONE.png");
+        background-image: url("../public/img/IMGPARAPC.png");
         background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-    }
-    section.parallax {
-        height: 100vh;
-        background-image: url("../public/img/IMGPARAIPHONE.png");
-        background-repeat: no-repeat;
-        background-attachment: scroll;
+        background-attachment: fixed;
         background-size: cover;
     }
 }
-
-
-/*Parallax New*/
-
-.parallax {
-    /* The image used */
-    background-image: url("../public/img/IMGPARAPC.png");
-    /* Set a specific height */
-    height: 100vh;
-    min-height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/*  PopUP CBU*/
-
-
-/* ========    popup  ========= */
