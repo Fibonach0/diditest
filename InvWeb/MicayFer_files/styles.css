@@ -921,7 +921,7 @@ section.contacto ul li i {
     }
 }
 
-@media (min-width: 800) {
+@media (min-width: 650) {
     section.portada2 {
         height: 100vh;
         background-image: url("../public/img/IMGPARAPC.png");
